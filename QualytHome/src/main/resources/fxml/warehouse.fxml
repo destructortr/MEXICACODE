@@ -90,10 +90,10 @@
                      <children>
                         <TableView prefHeight="200.0" prefWidth="200.0">
                           <columns>
-                            <TableColumn prefWidth="75.0" text="C1" />
-                            <TableColumn prefWidth="75.0" text="C2" />
-                              <TableColumn prefWidth="75.0" text="C3" />
-                              <TableColumn prefWidth="75.0" text="C4" />
+                            <TableColumn fx:id="colAsset" prefWidth="75.0" text="Activo" />
+                            <TableColumn fx:id="colType" prefWidth="75.0" text="Tipo" />
+                              <TableColumn fx:id="colWarehouse" prefWidth="75.0" text="Almacén" />
+                              <TableColumn fx:id="colStatus" prefWidth="75.0" text="Status" />
                           </columns>
                            <columnResizePolicy>
                               <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />

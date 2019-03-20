@@ -169,7 +169,7 @@
 }
 
 .image-view {
-    -fx-image: url("../stylesheets/images/LFLA.jpg");
+    -fx-image: url("../stylesheets/images/user.png");
 }
 
 /* ------------------------------------------ Specific areas STYLE -----------------------------------------------*/
